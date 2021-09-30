@@ -13,13 +13,13 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#000000, rgb(49, 0, 0));
+    background-image: linear-gradient(#2c2c2c, rgb(49, 0, 0));
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #240000, #5f1717, #000000);
+    background-image: linear-gradient(to right, #240000, #5f1717, #2c2c2c);
     color: rgb(241, 239, 243);
     margin: 0;
 }
