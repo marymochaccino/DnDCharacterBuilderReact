@@ -5,8 +5,9 @@ h1{
     font-family: "DM-Sans", sans-serif;
     color: white
 }
-h2, h3 ,h4{
+h2, h3, h4, h5, h6 {
     font-family: "DM-Sans", sans-serif;
+    color: rgb(255, 255, 255);
 }
 h4 {
     color: #ffffff;
@@ -42,6 +43,7 @@ header h2 {
 
 .carousel {
     border: solid rgb(26, 18, 4);
+    background-color:rgb(7, 7, 7);
 }
 
 #.carousel-inner {
