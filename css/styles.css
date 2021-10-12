@@ -44,8 +44,14 @@ header h2 {
     border: solid rgb(26, 18, 4);
 }
 
-#.carousel-inner {
+#carousel-inner {
 #    width: auto;
 #    height: 650px;
 #}
+
+.scroll {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
 
