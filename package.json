@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "This is a website with a D&D character builder for new players and a character showcase",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonnygoBOOM/DNDCharacterBuilder.git"
+  },
+  "author": "Ron Scheibel (RonnygoBOOM)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonnygoBOOM/DNDCharacterBuilder/issues"
+  },
+  "homepage": "https://github.com/RonnygoBOOM/DNDCharacterBuilder#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,15 @@
+#Ron $Mary %Sarah
+
+#Setup a git repository
+#Setup git and npm
+#Install dependencies: Jquery, Bootstrap
+#Setup CSS with a stylesheet
+#Implement Navbar, header, and footer
+#Customize Fonts
+#Create Logo v1.
+#implement carousel
+#set image backgrounds
+#update nav bar
+#add images
+$add images
+%wireframe website

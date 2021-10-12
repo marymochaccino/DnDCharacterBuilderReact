@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-family: "DM-Sans", sans-serif;
+    color: white
+}
+h2, h3 ,h4{
+    font-family: "DM-Sans", sans-serif;
+}
+h4 {
+    color: #ffffff;
+}
+header h2 {
+    color: #ffffff;
+}
+
+.site-footer {
+    background-image: linear-gradient(#0d0a14, #111111);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #0d0a14, #111111, #0d0a14);
+    color: rgb(241, 239, 243);
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar {
+    background-color: #030000;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid rgb(26, 18, 4);
+}
+
+#.carousel-inner {
+#    width: auto;
+#    height: 650px;
+#}
+
