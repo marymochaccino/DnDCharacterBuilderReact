@@ -45,9 +45,9 @@ header h2 {
 }
 
 #carousel-inner {
-#    width: auto;
-#    height: 650px;
-#}
+    width: auto;
+    height: 650px;
+}
 
 .scroll {
     max-height: 240px;
