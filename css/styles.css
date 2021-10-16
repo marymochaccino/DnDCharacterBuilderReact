@@ -47,13 +47,15 @@ header h2 {
 }
 
 #carousel-inner {
-#    width: auto;
-#    height: 650px;
-#}
+    width: auto;
+    height: 650px;
+}
 
 .scroll {
     max-height: 240px;
     overflow-y: auto;
 }
 
-
+.card-img {
+    border: 5px solid black;
+}
