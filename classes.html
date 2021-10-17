@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -14,7 +16,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
     <title>Classes</title>
+
 </head>
 
 <body>
@@ -47,18 +51,70 @@
 
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-md-4 mr-0 my-5">
-                    <div class="card" style="width: 450px; height: 21rem;">
+                <div class="col-md-4 mr-0 mt-4 mb-5">
+                    <div class="card" style="width: 450px; height: 24rem;">
                         <h5 class="card-header text-center">Wizard</h5>
+                        <nav>
+                            <ul class="nav nav-tabs" id="wizard-list" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#main" role="tab" aria-controls="main" aria-selected="true">Main</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#stuff" role="tab" aria-controls="stuff" aria-selected="false">Stuff</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab"  href="#moreStuff" role="tab" aria-controls="moreStuff" aria-selected="false">More Stuff</a>
+                                </li>
+                            </ul>
+                        </nav>
                         <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Wizard-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="main" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="img/DND-Wizard-Class.jpg" class="card-img"
+                                                style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
+                                        </div>
+                                        <div class="col scroll">
+                                            <p class="card-text" style="width: fit-content;">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col scroll">
-                                    <p class="card-text-overlay" style="width: 190px;">Lorem ipsum dolor sit amet,
-                                        consectetur
+                                <div class="tab-pane" id="stuff" role="tabpanel" aria-labelledby="stuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        </p>
+                                    </div>
+                                <div class="tab-pane" id="moreStuff" role="tabpanel" aria-labelledby="moreStuff-tab">
+                                    <p class="card-text scroll">
+                                        Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed doeiusmod tempor incididunt ut labore
                                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                         exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -68,60 +124,7 @@
                                         deserunt mollit anim id est laborum.
                                         Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Barbarian</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Barbarian-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Barbarian Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Bard</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Bard-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                                     </p>
                                 </div>
                             </div>
@@ -129,282 +132,953 @@
                     </div>
                 </div>
 
-                <div class="w-100"></div>
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Barbarian</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="barbarian-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#barbMain" role="tab" aria-controls="barbMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#barbStuff" role="tab" aria-controls="barbStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#barbMoreStuff" role="tab" aria-controls="barbMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="barbMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Barbarian-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Barbarian Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="barbStuff" role="tabpanel" aria-labelledby="barbStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="barbMoreStuff" role="tabpanel" aria-labelledby="barbMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="col-md-4 mr-0 my-4">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Cleric</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Cleric-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5 ">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Bard</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="bard-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#bardMain" role="tab" aria-controls="bardMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#bardStuff" role="tab" aria-controls="bardStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#bardMoreStuff" role="tab" aria-controls="bardMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="bardMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Bard-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Bard Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="bardStuff" role="tabpanel" aria-labelledby="bardStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="bardMoreStuff" role="tabpanel" aria-labelledby="barbMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Druid</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Druid-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Fighter</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Fighter-Class.png" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="w-100"></div>
+                    <div class="w-100"></div>
 
-                <div class="col-md-4 ml-0 my-5">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Monk</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Monk-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Cleric</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="cleric-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#clericMain" role="tab" aria-controls="clericMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#clericStuff" role="tab" aria-controls="clericStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#clericMoreStuff" role="tab" aria-controls="clericMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="clericMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Cleric-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Cleric Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="clericStuff" role="tabpanel" aria-labelledby="clericStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="clericMoreStuff" role="tabpanel" aria-labelledby="clericMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Paladin</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Paladin-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Ranger</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Ranger-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="w-100"></div>
-
-                <div class="col-md-4 ml-0 mt-4 mb-5">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Rogue</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Rogue-Class.png" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Druid</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="druid-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#druidMain" role="tab" aria-controls="druidMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#druidStuff" role="tab" aria-controls="druidStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#druidMoreStuff" role="tab" aria-controls="druidMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="druidMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Druid-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Druid Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="druidStuff" role="tabpanel" aria-labelledby="druidStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="druidMoreStuff" role="tabpanel" aria-labelledby="druidMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Sorcerer</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Sorcerer-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Fighter</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="fighter-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#fighterMain" role="tab" aria-controls="fighterMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#fighterStuff" role="tab" aria-controls="fighterStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#fighterMoreStuff" role="tab" aria-controls="fighterMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="fighterMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Fighter-Class.png" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Fighter Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="fighterStuff" role="tabpanel" aria-labelledby="fighterStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="fighterMoreStuff" role="tabpanel" aria-labelledby="fighterMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
-                    <div class="card" style="width: 450px; height: 21rem;">
-                        <h5 class="card-header text-center">Warlock</h5>
-                        <div class="card-body" class="card-horizontal">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/DND-Warlock-Class.jpg" class="card-img"
-                                        style="width: 160px; height: 14rem;" alt="Caleb Wizard Class">
-                                </div>
-                                <div class="col scroll">
-                                    <p class="card-text" style="width: 190px;">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed doeiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aut irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum.
-                                    </p>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Monk</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="monk-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#monkMain" role="tab" aria-controls="monkMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#monkStuff" role="tab" aria-controls="monkStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#monkMoreStuff" role="tab" aria-controls="monkMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="monkMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Monk-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Monk Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="monkStuff" role="tabpanel" aria-labelledby="monkStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="monkMoreStuff" role="tabpanel" aria-labelledby="monkMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Paladin</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="paladin-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#paladinMain" role="tab" aria-controls="paladinMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#paladinStuff" role="tab" aria-controls="paladinStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#paladinMoreStuff" role="tab" aria-controls="paladinMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="paladinMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Paladin-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Paladin Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="paladinStuff" role="tabpanel" aria-labelledby="paladinStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="paladinMoreStuff" role="tabpanel" aria-labelledby="paladinMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Ranger</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="ranger-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#rangerMain" role="tab" aria-controls="rangerMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#barbStuff" role="tab" aria-controls="rangerStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#rangerMoreStuff" role="tab" aria-controls="rangerMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="rangerMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Ranger-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Ranger Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="rangerStuff" role="tabpanel" aria-labelledby="rangerStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="rangerMoreStuff" role="tabpanel" aria-labelledby="rangerMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Rogue</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="rogue-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#rogueMain" role="tab" aria-controls="rogueMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#rogueStuff" role="tab" aria-controls="rogueStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#rogueMoreStuff" role="tab" aria-controls="rogueMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="rogueMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Rogue-Class.png" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Rogue Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="rogueStuff" role="tabpanel" aria-labelledby="rogueStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="rogueMoreStuff" role="tabpanel" aria-labelledby="rogueMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Sorcerer</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="sorcerer-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#sorcererMain" role="tab" aria-controls="sorcererMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#sorcererStuff" role="tab" aria-controls="sorcererStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#sorcererMoreStuff" role="tab" aria-controls="sorcererMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="barbMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Sorcerer-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Sorcerer Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="sorcererStuff" role="tabpanel" aria-labelledby="sorcererStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="sorcererMoreStuff" role="tabpanel" aria-labelledby="sorcererMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ml-0 mr-0 mt-4 mb-5">
+                        <div class="card" style="width: 450px; height: 24rem;">
+                            <h5 class="card-header text-center">Warlock</h5>
+                            <nav>
+                                <ul class="nav nav-tabs" id="warlock-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#warlockMain" role="tab" aria-controls="warlockMain" aria-selected="true">Main</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#warlockStuff" role="tab" aria-controls="warlockStuff" aria-selected="false">Stuff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab"  href="#warlockMoreStuff" role="tab" aria-controls="warlockMoreStuff" aria-selected="false">More Stuff</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="card-body" class="card-horizontal">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="warlockMain" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="img/DND-Warlock-Class.jpg" class="card-img"
+                                                    style="width: 160px; height: 14rem;" alt="Warlock Class">
+                                            </div>
+                                            <div class="col scroll">
+                                                <p class="card-text" style="width: fit-content;">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="warlockStuff" role="tabpanel" aria-labelledby="warlockStuff-tab">
+                                            <p class="card-text scroll">
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                                deserunt mollit anim id est laborum.
+                                                Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            </p>
+                                        </div>
+                                    <div class="tab-pane" id="warlockMoreStuff" role="tabpanel" aria-labelledby="warlockMoreStuff-tab">
+                                        <p class="card-text scroll">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aut irure dolor in reprehenderit in voluptate
+                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim id est laborum.
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed doeiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
                 </div>
-
-                <div class="w-100"></div>
-
             </div>
-        </div>
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-4 col-sm-2 offset-1">
-                        <div>
-                            <h5>Links</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="#">Sites</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-sm-2 offset-1">
+                            <div>
+                                <h5>Links</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="aboutus.html">About</a></li>
+                                    <li><a href="#">Sites</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6 col-sm-5 text-center">
-                        <div>
-                            <h5>Social</h5>
-                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                                    class="fa fa-twitter"></i></a>
-                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                                    class="fa fa-youtube"></i></a>
+                        <div class="col-6 col-sm-5 text-center">
+                            <div>
+                                <h5>Social</h5>
+                                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                        class="fa fa-instagram"></i></a>
+                                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                        class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                        class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                        class="fa fa-youtube"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <div>
-                            <a class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-                                1-206-555-1234<br></a>
-                            <a class="btn btn-link" href="mailto:dungeonsanddragons101@gmail.com"><i
-                                    class="fa fa-envelope-o"></i>
-                                dungeonsanddragons101@gmail.com</a>
+                        <div class="col-sm-4 text-center">
+                            <div>
+                                <a class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                                    1-206-555-1234<br></a>
+                                <a class="btn btn-link" href="mailto:dungeonsanddragons101@gmail.com"><i
+                                        class="fa fa-envelope-o"></i>
+                                    dungeonsanddragons101@gmail.com</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
 
-        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+            <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+            <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+            <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            
 </body>
 
 </html>
