@@ -59,3 +59,7 @@ header h2 {
 .card-img {
     border: 5px solid black;
 }
+
+#raceCard {
+    margin: 20px;
+}
