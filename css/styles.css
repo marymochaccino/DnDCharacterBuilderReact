@@ -63,3 +63,6 @@ header h2 {
 #raceCard {
     margin: 20px;
 }
+
+.nav-tabs {
+    border-color: transparent !important;
