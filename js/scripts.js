@@ -4,3 +4,6 @@ $(function () {
     });
 
 });
+function displayResult() {
+  document.getElementById("#class").innerHTML = "Have a nice day!";
+}
