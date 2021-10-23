@@ -75,8 +75,7 @@ header h2 {
 #card1 {
    background-color: black;
    color: white;
-  border: black 10px solid;
-     
+   border: black 10px solid; 
 }
 #card2 {
     background-color: black;
@@ -84,27 +83,20 @@ header h2 {
     border: black 10px solid;
    
     border-left: 5px;
-​
-      
  }
  #card3 {
     background-color: black;
     color: white;
-    border: black 10px solid;
-      
+    border: black 10px solid;  
  }
  
- 
-​
 .hero-image {
-​
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
 }
 ​
 .hero-text {
