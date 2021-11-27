@@ -12,11 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/RonnygoBOOM/DNDCharacterBuilder.git"
   },
-<<<<<<< HEAD
-  "author": "Ron Scheibel (RonnygoBOOM)",
-=======
   "author": "Ron Scheibel (RonnygoBOOM), Sarah Mercedes Andrews and Mary Covel",
->>>>>>> 3b45a62f3bda56cc74163f17cb0a341ed81762e8
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RonnygoBOOM/DNDCharacterBuilder/issues"
